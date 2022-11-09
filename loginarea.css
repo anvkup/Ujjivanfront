@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,900");
 
-body .progress_inner #step-1:checked+input+input+input+input+div+div+div+div>.box_base,
+/* body .progress_inner #step-1:checked+input+input+input+input+div+div+div+div>.box_base,
 body .progress_inner #step-5:checked+div+div+div+div>.box_base,
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_base,
 body .progress_inner #step-3:checked+input+input+div+div+div+div>.box_base,
@@ -8,8 +8,8 @@ body .progress_inner #step-2:checked+input+input+input+div+div+div+div>.box_base
     top: 50%;
     left: 0px;
     opacity: 1;
-}
-
+} */
+/* 
 body .progress_inner #step-1:checked+input+input+input+input+div+div+div+div>.box_item,
 body .progress_inner #step-5:checked+div+div+div+div>.box_item,
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_item,
@@ -18,81 +18,81 @@ body .progress_inner #step-2:checked+input+input+input+div+div+div+div>.box_item
     top: -30px;
     left: 0px;
     opacity: 0;
-}
-
+} */
+/* 
 body .progress_inner #step-2:checked+input+input+input+div+div+div+div>.box_lid,
 body .progress_inner #step-5:checked+div+div+div+div>.box_lid,
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_lid {
     top: -20px;
     left: 0px;
     opacity: 0;
-}
-
+} */
+/* 
 body .progress_inner #step-2:checked+input+input+input+div+div+div+div>.box_item,
 body .progress_inner #step-5:checked+div+div+div+div>.box_item,
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_item {
     top: -10px;
     left: 0px;
     opacity: 1;
-}
-
+} */
+/* 
 body .progress_inner #step-3:checked+input+input+div+div+div+div>.box_item,
 body .progress_inner #step-5:checked+div+div+div+div>.box_item,
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_item {
     top: 10px;
     left: 0px;
     opacity: 1;
-}
-
+} */
+/* 
 body .progress_inner #step-3:checked+input+input+div+div+div+div>.box_lid,
 body .progress_inner #step-5:checked+div+div+div+div>.box_lid,
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_lid {
     top: -1px;
     left: 0px;
     opacity: 1;
-}
-
+} */
+/* 
 body .progress_inner #step-3:checked+input+input+div+div+div+div>.box_ribbon,
 body .progress_inner #step-5:checked+div+div+div+div>.box_ribbon,
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_ribbon {
     top: 70%;
     left: 0px;
     opacity: 0;
-}
-
+} */
+/* 
 body .progress_inner #step-3:checked+input+input+div+div+div+div>.box_bow,
 body .progress_inner #step-5:checked+div+div+div+div>.box_bow,
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_bow {
     top: 0px;
     left: 0px;
     opacity: 0;
-}
-
+} */
+/* 
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_ribbon,
 body .progress_inner #step-5:checked+div+div+div+div>.box_ribbon {
     top: 50%;
     left: 0px;
     opacity: 1;
-}
-
+} */
+/* 
 body .progress_inner #step-4:checked+input+div+div+div+div>.box_bow,
 body .progress_inner #step-5:checked+div+div+div+div>.box_bow {
     top: -10px;
     left: 0px;
     opacity: 1;
-}
-
+} */
+/* 
 body .progress_inner #step-5:checked+div+div+div+div>.box_tag {
     top: 10px;
     left: 20px;
     opacity: 1;
-}
-
+} */
+/* 
 body .progress_inner #step-5:checked+div+div+div+div>.box_string {
     top: 10px;
     left: 20px;
     opacity: 1;
-}
+} */
 
 * {
     box-sizing: border-box;
