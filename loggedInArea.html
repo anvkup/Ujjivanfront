@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -159,6 +160,7 @@
     <!-- 
 
 
+     -->
 
 
 
@@ -167,7 +169,84 @@
 
 
 
-    -->
+
+<div class='progress'>
+  <div class='progress_inner'>
+    <div class='progress_inner__step'>
+      <label for='step-1'>Account Requested</label>
+    </div>
+    <div class='progress_inner__step'>
+      <label for='step-2'>Account Approved</label>
+    </div>
+    <div class='progress_inner__step'>
+      <label for='step-3'>Loan Type Requested</label>
+    </div>
+    <div class='progress_inner__step'>
+      <label for='step-4'>Loan Type Approved</label>
+    </div>
+    <div class='progress_inner__step'>
+      <label for='step-5'>Loan Amount Credited</label>
+    </div>
+    <input checked='checked' id='step-1' name='step' type='radio'>
+    <input id='step-2' name='step' type='radio'>
+    <input id='step-3' name='step' type='radio'>
+    <input id='step-4' name='step' type='radio'>
+    <input id='step-5' name='step' type='radio'>
+    <div class='progress_inner__bar'></div>
+    <div class='progress_inner__bar--set'></div>
+    <div class='progress_inner__tabs'>
+      <div class='tab tab-0'>
+        <h1>Account Requested</h1>
+        <p>Your Account has been requested to Jana Small Finance Bank, Details are submited.
+            You will get an E-Mail after Approval of your Account.
+        </p>
+      </div>
+      <div class='tab tab-1'>
+        <h1>Account Approved</h1>
+        <p>Your Account has been Approved by Jana Small Finance Bank.
+            You can now apply our loan type.
+            Our team will confirm it by you.</p>
+      </div>
+      <div class='tab tab-2'>
+        <h1>Loan Type Requested</h1>
+        <p>Your loan typr has been requested to Jana Small Finance Bank.
+            Sit back and wait until we conform it by you.
+        </p>
+      </div>
+      <div class='tab tab-3'>
+        <h1>Loan Type Approved</h1>
+        <p>You applied for <span>Loan type XYZ</span> we are Processing your request with given details, It may take 1 or 2 working days.</p>
+      </div>
+      <div class='tab tab-4'>
+        <h1>Loan Amount Credited</h1>
+        <p>Your Amount has been credited to to the bank account given by you.
+            Your refrence ID <span>XYZ</span>
+        </p>
+      </div>
+    </div>
+    <div class='progress_inner__status'>
+      <div class='box_base'></div>
+      <div class='box_lid'></div>
+      <div class='box_ribbon'></div>
+      <div class='box_bow'>
+        <div class='box_bow__left'></div>
+        <div class='box_bow__right'></div>
+      </div>
+      <div class='box_item'></div>
+      <div class='box_tag'></div>
+      <div class='box_string'></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+ 
 </body>
-
+<link rel="stylesheet" href="loginarea.css">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </html>
