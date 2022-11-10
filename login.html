@@ -190,7 +190,7 @@
             const user = document.getElementById('user').value
             const pswd = dowcument.getElementById('pswd').value
             async function trial() {
-                const response = await fetch(`http://192.168.0.3:8080/isApproved?user=${user}&pswd=${pswd}`)
+                const response = await fetch(`http://52.40.165.85:8080/isApproved?user=${user}&pswd=${pswd}`)
                 const data = await response.json()
                 console.log(data);
                 if (data == '0') {
