@@ -187,12 +187,10 @@
 <body style="background-color: #ddd;">
     <script>
         function onSubmit() {
-            alert('yo')
             const user = document.getElementById('user').value
             const pswd = dowcument.getElementById('pswd').value
             async function trial() {
                 const response = await fetch(`http://192.168.0.3:8080/isApproved?user=${user}&pswd=${pswd}`)
-                alert('l')
                 const data = await response.json()
                 console.log(data);
                 if (data == '0') {
