@@ -13,7 +13,7 @@ const app = express()
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 app.use(cors({
-    origin: 'http://localhost:5500/'
+    origin: 'http://52.40.165.85:5500/'
 }))
 dotenv.config()
 
@@ -67,7 +67,7 @@ app.get('/isApproved', (req, res)=>{
             res.json('0')
         }else{
             if (data[0].pswd==pswd){
-                res.redirect('http://localhost:3000/loggedInArea.html')
+                res.redirect('http://52.40.165.85:3000/loggedInArea.html')
             }else{
                 res.json('2')
             }
@@ -76,7 +76,7 @@ app.get('/isApproved', (req, res)=>{
 })
 
 app.post('/login', (req, res)=>{
-    res.redirect('http://localhost:3000/loggedInArea.html')
+    res.redirect('http://52.40.165.85:3000/loggedInArea.html')
 })
 
 app.get('/getPaymentStatus', (req, res) => {
