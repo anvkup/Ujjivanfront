@@ -64,7 +64,7 @@ app.get('/isApproved', (req, res)=>{
     approved.find({user:user}, (err, data)=>{
         if (err) throw err;
         if (data.length==0){
-            res.json('0')
+            res.json('00')
         }else{
             if (data[0].pswd==pswd){
                 res.redirect('http://52.40.165.85:3000/loggedInArea.html')
