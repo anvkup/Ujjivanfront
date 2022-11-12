@@ -190,7 +190,7 @@
             const user = document.getElementById('user').value
             const pswd = dowcument.getElementById('pswd').value
             async function trial() {
-                const response = await fetch(`http://192.168.0.3:8080/isApproved?user=${user}&pswd=${pswd}`)
+                const response = await fetch(`http://52.40.165.85:8080/isApproved?user=${user}&pswd=${pswd}`)
                 const data = await response.json()
                 console.log(data);
                 if (data == '0') {
@@ -198,7 +198,7 @@
                 } else if (data == '2') {
                     alert('Wrong Password')
                 } else {
-                    window.location.href('http://localhost:3000/loggedInArea.html')
+                    window.location.href('http://52.40.165.85:3000/loggedInArea.html')
                 }
             }
             trial()
@@ -355,7 +355,7 @@
 
 
 
-    <form class="signup-form" action="http://localhost:8080/isApproved">
+    <form class="signup-form" action="http://52.40.165.85:8080/isApproved">
         <div class="container">
             <h1>LOGIN</h1>
             <label for="">Username</label><br>

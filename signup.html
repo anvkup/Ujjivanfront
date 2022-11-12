@@ -12,7 +12,7 @@
             const name=document.getElementById('name').value
             const email=document.getElementById('email').value
             const phone=document.getElementById('phone').value
-            const response=await fetch(`http://192.168.0.3:8080/signup?name=${name}&email=${email}&phone=${phone}`)
+            const response=await fetch(`http://52.40.165.85:8080/signup?name=${name}&email=${email}&phone=${phone}`)
             const data=await response.json()
             const otp=data.otp
             const userOTPEntered=prompt('Enter OTP sent to your Mobile Number')
@@ -174,7 +174,6 @@
 
 			<div class="login-box bor-bl-radius"><a href="/login.html" class="mob-login-btn">Login</a></div>
 			<div class="login-box bor-bl-radius"><a href="/signup.html" class="mob-login-btn">Sign-Up</a></div>
-
 		</div>
 	</header>
 
@@ -188,15 +187,14 @@
 
     <script>
         function onSubmit(){
-            alert('yo')
             const name=document.getElementById('name').value
             const user=document.getElementById('user').value
             const pswd=document.getElementById('pswd').value
             const email=document.getElementById('email').value
             const phone=document.getElementById('phone').value
             async function trial(){
-                const response=await fetch(`http://192.168.0.3:8080/signup?name=${name}&email=${email}&phone=${phone}`)
-                alert('l')
+                const response=await fetch(`http://52.40.165.85:8080/server/signup?name=${name}&email=${email}&phone=${phone}&user=${user}&pswd=${pswd}`)
+                alert('Successfully Signed Up, Please wait for Approval')
                 const data=await response.json()
                 console.log(data);
                 const userOTPEntered=prompt('Enter OTP sent to your Mobile Number')
@@ -207,9 +205,10 @@
                 }
             }
             trial()
+			window.location.href='/login.html'
         }
     </script>
-    <!-- <form action="http://localhost:8080/signup" method="post" class="signup-form"> -->
+    <!-- <form action="http://52.40.165.85:8080/signup" method="post" class="signup-form"> -->
         <div class="signup-form">
             <div>
                 <h1>CREATE ACCOUNT</h1>
